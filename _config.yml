@@ -8,7 +8,7 @@ url: https://AngoraSpace.github.io
 
 # Jekyll configuration
 
-permalink:   /:title/
+permalink:   /:title
 markdown:    kramdown
 highlighter: rouge
 sass:
