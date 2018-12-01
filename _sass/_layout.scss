@@ -32,7 +32,6 @@ body {
 		list-style: none;
 		text-align: center;
 		@include font-size(24,no);
-		text-transform: uppercase;
 		color: $white;
 		@include media($medium) {
 			@include font-size(14,no);
@@ -210,7 +209,6 @@ body {
 .entry-tags {
 	display: block;
 	margin-top: 2em;
-	text-transform: uppercase;
 	@include font-size(16);
 	font-weight: 600;
 	a { 
@@ -319,7 +317,7 @@ span + .entry-title {
 	}
 	.entry-content {
 		@include span-columns(12);
-	}
+	}entry
 }
 // Post index layout
 .post-list {
@@ -336,14 +334,7 @@ span + .entry-title {
 	a > span {
 		float: right;
 	}
-	.entry-date {
-		@include font-size(14,no);
-		text-transform: uppercase;
-		display: none;
-		@include media($medium) {
-			display: inline;
-		}
-	}
+	
 	/* post excerpt */
 	.excerpt {
 		display: block;
